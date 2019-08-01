@@ -13,23 +13,8 @@ export class GraficaDonaComponent implements OnInit {
   @Input() data: number[];
   @Input() charType: ChartType;
 
-
-  // public doughnutChartLabels: Label[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-  // public doughnutChartData: MultiDataSet = [[350, 450, 100]];
-  // public doughnutChartType: ChartType = 'doughnut';
-
   constructor() { }
 
   ngOnInit() {
   }
-
-
-    // events
-    public chartClicked({ event, active }: { event: MouseEvent, active: {}[] }): void {
-      console.log(event, active);
-    }
-
-    public chartHovered({ event, active }: { event: MouseEvent, active: {}[] }): void {
-      console.log(event, active);
-    }
 }

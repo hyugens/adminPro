@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 // Componentes
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { RegisterComponent } from './login/register.component';
   imports: [
     BrowserModule,
     PagesModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
