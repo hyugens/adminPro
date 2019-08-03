@@ -13,6 +13,8 @@ import { SharedModule } from '../shared/header/shared.module';
 import { ComponentsModule } from '../components/components.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { CommonModule } from '@angular/common';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +22,9 @@ import { CommonModule } from '@angular/common';
         ProgressComponent,
         Graficas1Component,
         PagesComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
